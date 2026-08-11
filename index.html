@@ -116,7 +116,7 @@ h1 .accent{color:var(--accent)}
 }
 .term-bar span{width:11px;height:11px;border-radius:50%;display:inline-block}
 .tb-r{background:#ff5f57}.tb-y{background:#febc2e}.tb-g{background:#28c840}
-.term-title{margin-left:10px;font-family:var(--mono);font-size:11.5px;color:var(--txt-faint)}
+.term-title{margin-left:10px;font-family:var(--mono);font-size:11.5px;color:var(--txt-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .term-body{
   font-family:var(--mono);font-size:13px;line-height:1.75;
   padding:18px 20px;min-height:230px;max-height:340px;overflow-y:auto;
@@ -272,7 +272,7 @@ footer p{color:var(--txt-dim);max-width:480px;margin:0 auto 28px}
   <div class="term" id="terminal">
     <div class="term-bar">
       <span class="tb-r"></span><span class="tb-y"></span><span class="tb-g"></span>
-      <span class="term-title">pasindu@architect: ~ — interactive · try it</span>
+      <span class="term-title">pasindu@architect: ~</span>
     </div>
     <div class="term-body" id="term-body"></div>
     <div class="term-input-row">
